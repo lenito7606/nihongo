@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/aline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+
+                android:id="@+id/a"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_a"
+                android:onClick="onHira_aButtonclick" />
+
+            <Button
+                android:id="@+id/i"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_i" />
+
+            <Button
+                android:id="@+id/u"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_u" />
+
+            <Button
+                android:id="@+id/e"
+                android:background="@mipmap/ic_hira_e"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/o"
+                android:background="@mipmap/ic_hira_o"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/kline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/ka"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ka" />
+
+            <Button
+                android:id="@+id/ki"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ki" />
+
+            <Button
+                android:id="@+id/ku"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ku" />
+
+            <Button
+                android:id="@+id/ke"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ke" />
+
+            <Button
+                android:id="@+id/ko"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ko" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/saline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/sa"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_sa"/>
+            <Button
+                android:id="@+id/shi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_shi"/>
+            <Button
+                android:id="@+id/su"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_su"/>
+            <Button
+                android:id="@+id/se"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_se"/>
+            <Button
+                android:id="@+id/so"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_so"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/taline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/ta"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ta"/>
+            <Button
+                android:id="@+id/chi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_chi"/>
+            <Button
+                android:id="@+id/tsu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_tsu"/>
+
+            <Button
+                android:id="@+id/te"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_te"/>
+            <Button
+                android:id="@+id/to"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_to"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/naline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/na"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_na"/>
+            <Button
+                android:id="@+id/ni"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ni"/>
+            <Button
+                android:id="@+id/nu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_nu"/>
+            <Button
+                android:id="@+id/ne"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ne"/>
+
+            <Button
+                android:id="@+id/no"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_no"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/haline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/ha"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ha"/>
+            <Button
+                android:id="@+id/hi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_hi"/>
+            <Button
+                android:id="@+id/fu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_fu"/>
+            <Button
+                android:id="@+id/he"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_he"/>
+            <Button
+                android:id="@+id/ho"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ho"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/maline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/ma"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ma"/>
+            <Button
+                android:id="@+id/mi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_mi"/>
+            <Button
+                android:id="@+id/mu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_mu"/>
+            <Button
+                android:id="@+id/me"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_me"/>
+            <Button
+                android:id="@+id/mo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_mo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/yaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/ya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ya"/>
+
+            <Button
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/yu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_yu"/>
+
+            <Button
+
+                android:id="@+id/button2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/yo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_yo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/raline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/ra"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ra"/>
+            <Button
+                android:id="@+id/ri"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ri"/>
+            <Button
+                android:id="@+id/ru"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ru"/>
+            <Button
+                android:id="@+id/re"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_re"/>
+            <Button
+                android:id="@+id/ro"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ro"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/waline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/wa"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_wa"/>
+
+            <Button
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <Button
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <Button
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/wo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_wo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/nline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/n"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_n"/>
+
+            <Button
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <Button
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <Button
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:visibility="invisible"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/galine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/ga"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/hira_ga"/>
+            <Button
+                android:id="@+id/gi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_gi"/>
+            <Button
+                android:id="@+id/gu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_gu"/>
+            <Button
+                android:id="@+id/ge"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ge"/>
+            <Button
+                android:id="@+id/go"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_go"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/zaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/za"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_za"/>
+            <Button
+                android:id="@+id/ji"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ji"/>
+            <Button
+                android:id="@+id/zu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_zu"/>
+            <Button
+                android:id="@+id/ze"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ze"/>
+            <Button
+                android:id="@+id/zo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_zo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/daline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/da"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_da" />
+
+            <Button
+                android:id="@+id/ji2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ji2"/>
+            <Button
+                android:id="@+id/zu2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_zu2"/>
+            <Button
+                android:id="@+id/de"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_de"/>
+            <Button
+                android:id="@+id/do2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_do"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/baline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/ba"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ba"/>
+            <Button
+                android:id="@+id/bi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_bi"/>
+            <Button
+                android:id="@+id/bu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_bu"/>
+            <Button
+                android:id="@+id/be"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_be"/>
+            <Button
+                android:id="@+id/bo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_bo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/paline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/pa"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pa"/>
+            <Button
+                android:id="@+id/pi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"/>
+            <Button
+                android:id="@+id/pu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pu"/>
+            <Button
+                android:id="@+id/pe"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"/>
+            <Button
+                android:id="@+id/po"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_po"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/kyaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/kya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_kya"/>
+
+            <Button
+                android:id="@+id/kyi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/kyu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_kyu"/>
+
+            <Button
+                android:id="@+id/kye"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/kyo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_kyo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/shaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/sha"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_sha"/>
+
+            <Button
+                android:id="@+id/shi2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/shu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_shu"/>
+
+            <Button
+                android:id="@+id/she"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/sho"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_sho"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/chaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/cha"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_cha"/>
+
+            <Button
+                android:id="@+id/chi2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/chu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_chu"/>
+
+            <Button
+                android:id="@+id/che"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/cho"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_cho"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/nyaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/nya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_nya"/>
+
+            <Button
+                android:id="@+id/nyi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/nyu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_nyu"/>
+
+            <Button
+                android:id="@+id/nye"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/nyo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_nyo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hyaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/hya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_hya"/>
+
+            <Button
+                android:id="@+id/hyi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/hyu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_hyu"/>
+
+            <Button
+                android:id="@+id/hye"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/hyo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_hyo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/myaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/mya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_mya"/>
+
+            <Button
+                android:id="@+id/myi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/myu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_myu"/>
+
+            <Button
+                android:id="@+id/mye"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/myo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_myo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/ryaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/rya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_rya"/>
+
+            <Button
+                android:id="@+id/ryi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/ryu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ryu"/>
+
+            <Button
+                android:id="@+id/rye"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/ryo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ryo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/gyaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/gya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_gya"/>
+
+            <Button
+                android:id="@+id/gyi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/gyu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_gyu"/>
+
+            <Button
+                android:id="@+id/gye"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/gyo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_gyo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/jaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/ja"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ja" />
+
+            <Button
+                android:id="@+id/ji3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/ju"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_ju" />
+
+            <Button
+                android:id="@+id/je"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/jo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_jo"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/byaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/bya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_byo"/>
+
+            <Button
+                android:id="@+id/byi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/byu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_byu"/>
+
+            <Button
+                android:id="@+id/bye"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/byo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_bya"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pyaline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/pya"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pya"/>
+
+            <Button
+                android:id="@+id/pyi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pi"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/pyu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pyu"/>
+
+            <Button
+                android:id="@+id/pye"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pe"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/pyo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hira_pyo"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+</ScrollView>

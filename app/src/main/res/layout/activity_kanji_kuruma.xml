@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sha2kanji"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:id="@+id/onreading"
+        android:textColor="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON Reading"
+        android:textSize="20sp"
+        android:layout_marginBottom="103dp"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/onread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/onreading"
+        android:layout_marginTop="26dp"
+        android:paddingLeft="20sp"
+        android:text="シャ"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/kunreading"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kun Reading"
+        android:textColor="@color/red"
+        android:paddingLeft="20sp"
+        android:layout_below="@+id/onread"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/kunread0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp"
+        android:text="くるま"
+        android:textSize="20sp"
+        android:layout_below="@+id/kunreading"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

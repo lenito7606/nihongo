@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/lesson11part1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson11_a" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson11part2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson11part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="へやにひとがふたりいます。"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson11part3"
+            android:layout_below="@+id/lesson11part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There are two persons in the room." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson11part4"
+            android:layout_below="@+id/lesson11part3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="くつをふたつをかいました。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson11part5"
+            android:layout_below="@+id/lesson11part4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I bought two pair of shoes." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson11part6"
+            android:layout_below="@+id/lesson11part5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson11_b" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson11part7"
+            android:layout_below="@+id/lesson11part6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson11_c" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson11part8"
+            android:layout_below="@+id/lesson11part7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="いっかげつ に さんかい えい が をみます" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson11part9"
+            android:layout_below="@+id/lesson11part8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I watch movies thrice a month." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson11part10"
+            android:layout_below="@+id/lesson11part9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson11_d" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/lesson12part1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The first sentence pattern is Noun1 は Noun2 より adjectiveです。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson12part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="わたし の 車 は きむらさん の 車 より 大きい です。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part3"
+            android:layout_below="@+id/lesson12part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My car is bigger that Mr Kimura’s car." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson12part4"
+            android:layout_below="@+id/lesson12part3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noun1 と Noun2 と どちら が Adjective です か。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part5"
+            android:layout_below="@+id/lesson12part4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson12_a" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part6"
+            android:layout_below="@+id/lesson12part5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="テニスとサッカーとどちらがすきですか"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part7"
+            android:layout_below="@+id/lesson12part6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which is more you like, tennis or soccer?"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part8"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson12part7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choice の ほう がAdjective です"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part9"
+            android:layout_below="@+id/lesson12part8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the sentence pattern for choosing for the two items."/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part10"
+            android:layout_below="@+id/lesson12part9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="テニス の ほう が すき です。"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part11"
+            android:layout_below="@+id/lesson12part10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I like tennis more."/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson12part12"
+            android:layout_below="@+id/lesson12part11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson12_b"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson12part13"
+            android:layout_below="@+id/lesson12part12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日本りょうり[の 中]で なに が いちばん おいしいです か。"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part14"
+            android:layout_below="@+id/lesson12part13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Among japanese dished, what is the most delicious?"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part15"
+            android:layout_below="@+id/lesson12part14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ラーメン が いちばん おいしい です。"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson12part16"
+            android:layout_below="@+id/lesson12part15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ramen is the most delicious."/>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

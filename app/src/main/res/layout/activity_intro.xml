@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/intro1"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:textSize="20sp"
+        android:text="@string/intro1"
+        android:textAlignment="center"
+        />
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:textSize="20sp"
+        android:id="@+id/intro2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_alignStart="@+id/intro1"
+        android:layout_below="@+id/intro1"
+        android:paddingTop="20dp"
+        android:text="@string/intro2"
+        android:textAlignment="gravity"
+        />
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:textSize="20sp"
+        android:id="@+id/intro3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_alignStart="@+id/intro2"
+        android:layout_below="@+id/intro2"
+        android:paddingTop="20dp"
+        android:text="@string/intro3"
+        android:textAlignment="gravity"
+        />
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:textSize="20sp"
+        android:id="@+id/intro4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_alignStart="@+id/intro3"
+        android:layout_below="@+id/intro3"
+        android:paddingTop="5dp"
+        android:text="@string/intro4"
+        android:textAlignment="gravity"
+        />
+</RelativeLayout>
+
+</ScrollView>

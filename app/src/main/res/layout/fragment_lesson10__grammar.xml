@@ -1,0 +1,263 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/lesson10part1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson10_a" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson10part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson10_b" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part3"
+            android:layout_below="@+id/lesson10part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ひと が います。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part4"
+            android:layout_below="@+id/lesson10part3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There is a person." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part5"
+            android:layout_below="@+id/lesson10part4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="いす が います。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part6"
+            android:layout_below="@+id/lesson10part5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There is a chair." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part7"
+            android:layout_below="@+id/lesson10part6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="スーパー が あります。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part8"
+            android:layout_below="@+id/lesson10part7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There is supermarket." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part9"
+            android:layout_below="@+id/lesson10part8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ねこ が います。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part10"
+            android:layout_below="@+id/lesson10part9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There is a cat." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part11"
+            android:layout_below="@+id/lesson10part10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ねこ が います。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson10part12"
+            android:layout_below="@+id/lesson10part11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson10_c" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part13"
+            android:layout_below="@+id/lesson10part12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="へや に やまださん が います。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part14"
+            android:layout_below="@+id/lesson10part13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr. yamada is in the room." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part15"
+            android:layout_below="@+id/lesson10part14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="じむしょ に コンピュータ が あります。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part16"
+            android:layout_below="@+id/lesson10part15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There is a computer in the office." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson10part17"
+            android:layout_below="@+id/lesson10part16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson10_d" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part18"
+            android:layout_below="@+id/lesson10part17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ふじさん は にほん に あります。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part19"
+            android:layout_below="@+id/lesson10part18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The mount fuji is in japan." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part20"
+            android:layout_below="@+id/lesson10part19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ほむらさん は へや に います。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part21"
+            android:layout_below="@+id/lesson10part20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ms. Homura is in the room." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson10part22"
+            android:layout_below="@+id/lesson10part21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson10_e" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part23"
+            android:layout_below="@+id/lesson10part22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="へや の なか に きむらさん が います。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part24"
+            android:layout_below="@+id/lesson10part23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr. kimura is inside the room." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part25"
+            android:layout_below="@+id/lesson10part24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="いす の した に くつ が あります。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part26"
+            android:layout_below="@+id/lesson10part25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There is a shoe under the chair." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part27"
+            android:layout_below="@+id/lesson10part26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For あいだ you need to locations since your trying to say in between." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part28"
+            android:layout_below="@+id/lesson10part27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="きんこう と がっこう の あいだ に スーパー が あります。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part29"
+            android:layout_below="@+id/lesson10part28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There is a supermarket between the bank and school." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson10part30"
+            android:layout_below="@+id/lesson10part29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson10_f" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part31"
+            android:layout_below="@+id/lesson10part30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="かばん の なか に えんぴつ や ほん が あります。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part32"
+            android:layout_below="@+id/lesson10part31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="かばん の なか に えんぴつ や ほん など が あります。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson10part33"
+            android:layout_below="@+id/lesson10part32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There are pencils books and etc. inside the bag." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson10part34"
+            android:layout_below="@+id/lesson10part33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="As for the interrogatives you can as exact what or who or where. Like “どこに” “だれが” “なにが”" />
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

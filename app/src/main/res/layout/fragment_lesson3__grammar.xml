@@ -1,0 +1,246 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/lesson3part1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson3_a" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson3part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson3_b" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part3"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson3part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson3_c" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part4"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson3part3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson3_d" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:id="@+id/lesson3part5"
+            android:layout_below="@+id/lesson3part4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 --> hyaku" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part6"
+            android:layout_below="@+id/lesson3part5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200 --> ni hyaku" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part7"
+            android:textColor="@color/red"
+            android:layout_below="@+id/lesson3part6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300 --> san byaku" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part8"
+            android:layout_below="@+id/lesson3part7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400 --> yon hyaku" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part9"
+            android:layout_below="@+id/lesson3part8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500 --> go hyaku" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part10"
+            android:textColor="@color/red"
+            android:layout_below="@+id/lesson3part9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="600 --> roppyaku" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part11"
+
+            android:layout_below="@+id/lesson3part10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="700 --> nana hyaku" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part12"
+            android:textColor="@color/red"
+            android:layout_below="@+id/lesson3part11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="800 --> happyaku" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part13"
+            android:layout_below="@+id/lesson3part12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="900 -->kyu hyaku" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part14"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson3part13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000 --> sen" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part15"
+            android:layout_below="@+id/lesson3part14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000 --> ni sen" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:id="@+id/lesson3part16"
+            android:layout_below="@+id/lesson3part15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3000 --> san zen" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part17"
+            android:layout_below="@+id/lesson3part16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4000 --> yon sen" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part18"
+            android:layout_below="@+id/lesson3part17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5000 --> go sen" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part19"
+            android:layout_below="@+id/lesson3part18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6000 --> roku sen" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part20"
+            android:layout_below="@+id/lesson3part19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7000 --> nana sen" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:id="@+id/lesson3part21"
+            android:layout_below="@+id/lesson3part20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8000 --> hassen" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part22"
+            android:layout_below="@+id/lesson3part21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9000 --> kyuu sen" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part23"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson3part22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson3_e" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson3part24"
+            android:layout_below="@+id/lesson3part23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8352" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part25"
+            android:layout_below="@+id/lesson3part24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hassen san byaku go juu ni " />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson3part26"
+            android:layout_below="@+id/lesson3part25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28,352" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part27"
+            android:layout_below="@+id/lesson3part26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ni man hassen san byaku go juu ni " />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson3part28"
+            android:layout_below="@+id/lesson3part27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="38,378,654" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson3part29"
+            android:layout_below="@+id/lesson3part28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="san zen happyaku san juu nana man hassen roppyaku go juu yon " />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson3part30"
+            android:layout_below="@+id/lesson3part29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson3_f" />
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,377 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/lesson14part1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson14_a" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group I in this group you need to first look Vます form of the verb that has.　い,ち,り,み,び,に,き,ぎし." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part3"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="い,ち,り-->って" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part4"
+            android:layout_below="@+id/lesson14part3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="かいます-->かって to buy" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part5"
+            android:layout_below="@+id/lesson14part4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="まちます-->まって to wait" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part6"
+            android:layout_below="@+id/lesson14part5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="かえります-->かえって to return/go back" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part7"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="み,び,に-->んで" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part8"
+            android:layout_below="@+id/lesson14part7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="のみます-->のんで to drink" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part9"
+            android:layout_below="@+id/lesson14part8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="よみます-->よんで to read" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part10"
+            android:layout_below="@+id/lesson14part9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="しにます-->しんで to die" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part11"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ぎ-->いで" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part12"
+            android:layout_below="@+id/lesson14part11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="いそぎます-->いそいで to hurry" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part13"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="き-->いて" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part14"
+            android:layout_below="@+id/lesson14part13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="かきます-->かいて to write" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part15"
+            android:layout_below="@+id/lesson14part14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note: that いきます to go　is also end with ”き” but the conjugation for this verb is いって so be careful" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part16"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="し-->て" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part17"
+            android:layout_below="@+id/lesson14part16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="かします-->かして to lend" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part18"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group II is easier that group I first you need to verb that in えline then add て to ますform i will give some examples" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part19"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="たべます-->たべてto eat" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part20"
+            android:layout_below="@+id/lesson14part19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ねます-->ねて to sleep" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part21"
+            android:layout_below="@+id/lesson14part20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="あげます-->すあげてto give" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part22"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson14_b" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part23"
+            android:layout_below="@+id/lesson14part22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="みます to watch/to see/to look" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part24"
+            android:layout_below="@+id/lesson14part23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="シャワーをあびます to take a shower" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part25"
+            android:layout_below="@+id/lesson14part24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="おります to get off" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part26"
+            android:layout_below="@+id/lesson14part25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="できます to be able/can do" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part27"
+            android:layout_below="@+id/lesson14part26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="きます to wear" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part28"
+            android:layout_below="@+id/lesson14part27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="おちます to fall" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part29"
+            android:layout_below="@+id/lesson14part28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="かんじます to feel" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part30"
+            android:layout_below="@+id/lesson14part29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="すぎます to overdo" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part31"
+            android:layout_below="@+id/lesson14part30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="たります to be enough/sufficient" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part32"
+            android:layout_below="@+id/lesson14part31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="かります to borrow" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part33"
+            android:layout_below="@+id/lesson14part32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="おきます to wake up" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part34"
+            android:layout_below="@+id/lesson14part33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="います　to exist(animate)" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part35"
+            android:layout_below="@+id/lesson14part34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="あきます to get tired of" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part36"
+            android:layout_below="@+id/lesson14part35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like i said they appear to be in group one but they belongs to group II" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part37"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group III verbs that have noun + します" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part38"
+            android:layout_below="@+id/lesson14part37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="きます-->きて to come" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part39"
+            android:layout_below="@+id/lesson14part38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="します-->して to do" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part40"
+            android:layout_below="@+id/lesson14part39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="べんきょうします-->べんきょうして to study" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part41"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vてform ください Please do verb" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part42"
+            android:layout_below="@+id/lesson14part41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson14_c" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part43"
+            android:layout_below="@+id/lesson14part42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ねてください" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part44"
+            android:layout_below="@+id/lesson14part43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please sleep" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part45"
+            android:layout_below="@+id/lesson14part44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="じむしょうへきてください" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part46"
+            android:layout_below="@+id/lesson14part45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please come to the office" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part47"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson14part46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vてform います ing verb" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part48"
+            android:layout_below="@+id/lesson14part47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="same thing with the english this sentence pattern indicates that a certain action is in currently in progress" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part49"
+            android:layout_below="@+id/lesson14part48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="きむらさん は いま たべています" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson14part50"
+            android:layout_below="@+id/lesson14part49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr kimura is eating now." />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,261 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/lesson15part1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vてformも いい です You may do verb" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part2"
+            android:layout_below="@+id/lesson15part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This expression is used to grant permission." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part3"
+            android:layout_below="@+id/lesson15part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ここ で たべて も いい です。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part4"
+            android:layout_below="@+id/lesson15part3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You may eat here" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part5"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson15part4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To ask permission, the question form of this just add か in the last sentence" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part6"
+            android:layout_below="@+id/lesson15part5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ここ で たべて も いい です か。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part7"
+            android:layout_below="@+id/lesson15part6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="can i eat here?" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part8"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson15part7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V　て　form　は いけません　You must not do verb" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part9"
+            android:layout_below="@+id/lesson15part8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This sentence pattern is used to express prohibition." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part10"
+            android:layout_below="@+id/lesson15part9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ここ で たばこ を すって は いけません。きんえん です から。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part11"
+            android:layout_below="@+id/lesson15part10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You must not smoke here, because this is no-smoking area. " />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part12"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson15part11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vてform います" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part13"
+            android:layout_below="@+id/lesson15part12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson15_a" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part14"
+            android:layout_below="@+id/lesson15part13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="わたし は けっこんしています。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part15"
+            android:layout_below="@+id/lesson15part14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am married" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part16"
+            android:layout_below="@+id/lesson15part15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="わたし は たなかさん を しっています。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part17"
+            android:layout_below="@+id/lesson15part16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I know Mr. Tanaka" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part18"
+            android:layout_below="@+id/lesson15part17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="わたし は フィリピ に すんでいます。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part19"
+            android:layout_below="@+id/lesson15part18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I live in Philippines." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part20"
+            android:layout_below="@+id/lesson15part19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="わたし は くるま を もっています。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part21"
+            android:layout_below="@+id/lesson15part20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I have a car" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part22"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson15part21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vてform います" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part23"
+            android:layout_below="@+id/lesson15part22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson15_b" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part24"
+            android:layout_below="@+id/lesson15part23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="わたしはだいがくでべんきょうしています" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part25"
+            android:layout_below="@+id/lesson15part24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I studying at university" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part26"
+            android:layout_below="@+id/lesson15part25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ちいさん は ABC で はたらいています。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part27"
+            android:layout_below="@+id/lesson15part26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ms. Chii works for ABC" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part28"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson15part27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The negative form of the しっています is しりません(to know)" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part29"
+            android:layout_below="@+id/lesson15part28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ほむらさん の けいたいばんごう を しっています か。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part30"
+            android:layout_below="@+id/lesson15part29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="do you know the cellphone number of ms. Kimura?" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part31"
+            android:layout_below="@+id/lesson15part30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="はい しっています。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part32"
+            android:layout_below="@+id/lesson15part31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes i know." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part33"
+            android:layout_below="@+id/lesson15part32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="いいえ しりません。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson15part34"
+            android:layout_below="@+id/lesson15part33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No i don't know." />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

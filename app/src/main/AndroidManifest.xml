@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lennin.aniceto.nihongonaraimashou">
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation"
+        android:icon="@mipmap/ic_logo_ko"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.lennin.aniceto.nihongonaraimashou.Flasher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.menu"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lessons"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Account"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.lennin.aniceto.nihongonaraimashou.Report" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.WritingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_writing"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraAActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraIActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraUActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraEActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraOActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraKaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraKeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraKiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraKoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraKuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraSaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraShiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraSuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraSeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraSoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraTaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraChiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraTsuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraTeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraToActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.RegistrationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraNaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraNiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraNuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraNeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraNoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraHaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraHiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraFuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraHeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraHoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraMaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraMiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraMuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraMeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraMoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Intro"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Menu_Lesson1to5"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Menu_Lesson6to10"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Menu_Lesson11to15"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson1"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson2"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson3"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson4"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson5"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson6"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson7"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson8"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson9"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson10"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson11"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson12"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson13"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson14"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Lesson15"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraYaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraYuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraYoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraRaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraRiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraRuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraReActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraRoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraWaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraWoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataAActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataIActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataUActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataEActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataOActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataKAActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataKiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataKuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataKeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataKoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataSaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataShiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataSuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataSeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataSoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataTaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataChiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataTsuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataTeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataToActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataNaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataNiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataNuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataNeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataNoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataHaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataHiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataFuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataHeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataHoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataMaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataMiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataMuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataMeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataMoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataYaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataYuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataYoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataRaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataRiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataRuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataReActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataRoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataWaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KataWoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.HiraganaNActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KatakanaNActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam1"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam2"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam3"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam4"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam5"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam6"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam7"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam8"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam9"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam10"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam11"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam12"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam13"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam14"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam15"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam_Hiragana"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.Exam_Katakana"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.ResultActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiIchiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiNiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiSanActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiYonActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiGoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiRokuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiNanaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiHachiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiJuuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiKyuuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiHitoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiMeiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiHouActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiHonActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiNichiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiNanActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiDaiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiGakuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiKaiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiShaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiKouActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiRaiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiJiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiKurumaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiHyakuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiSenActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiManActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiEnActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiTokiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiBunActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiYouActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiTsukiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiHiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiMizuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiMokuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiKinActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiTsuchiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiTomoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiNenActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiImaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiGogoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiKenActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiKuniActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiMaeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiShuActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiNakaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiUeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiShitaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiHidariActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lennin.aniceto.nihongonaraimashou.KanjiMigiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.lennin.aniceto.nihongonaraimashou.ExamKanji"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

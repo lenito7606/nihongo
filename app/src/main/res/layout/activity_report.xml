@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_above="@+id/navigation">
+
+        <TextView
+
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Overall Progress" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_marginTop="20dp"
+            android:layout_width = "match_parent"
+            android:layout_height = "200dp"
+            android:id = "@+id/BarGraph"
+            />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BarGraph">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+
+        <TextView
+            android:id="@+id/wcr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="53dp"
+            android:visibility="invisible" />
+
+        <TableLayout
+            android:id="@+id/hscr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="Highest Scores"
+                    android:textSize="25sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Hiragana"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/hira_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Katakana"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/kata_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Kanji"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/kanji_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="Vocabulary"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/voca_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="Particle"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/part_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="Interrogative"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/inter_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/hscr"
+            android:id="@+id/textView7"
+            android:text="Highest Score in Every Lesson"
+            android:textSize="25sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:id="@+id/hscrlesson"
+            android:layout_below="@+id/textView7">
+
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:text="Vocabulary"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:text="Particle"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:text="Interrogative"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson1"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca1_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part1_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter1_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson2"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca2_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part2_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter2_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson3"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca3_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part3_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter3_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson4"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca4_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part4_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter4_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson5"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca5_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part5_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter5_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson6"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca6_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part6_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter6_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson7"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca7_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part7_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter7_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson8"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca8_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part8_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter8_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson9"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca9_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part9_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter9_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson10"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca10_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part10_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter10_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson11"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca11_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part11_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter11_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson12"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca12_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part12_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter12_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson13"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca13_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part13_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter13_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson14"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca14_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part14_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter14_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lesson15"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/voca15_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/part15_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/inter15_score"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/hscrlesson"
+            android:id="@+id/percent"
+            android:text="Percentage in Every Lesson"
+            android:textSize="25sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/percent">
+
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson"
+                android:textSize="18sp"/>
+            <TextView
+                android:text="Vocabulary"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="Particle"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="Interrogative"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson1"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca1_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part1_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter1_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson2"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca2_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part2_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter2_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson3"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca3_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part3_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter3_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson4"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca4_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part4_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter4_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson5"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca5_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part5_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter5_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson6"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca6_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part6_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter6_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson7"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca7_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part7_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter7_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson8"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca8_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part8_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter8_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson9"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca9_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part9_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter9_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson10"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca10_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part10_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter10_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson11"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca11_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part11_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter11_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson12"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca12_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part12_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter12_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson13"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca13_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part13_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter13_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson14"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca14_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part14_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter14_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:text="Lesson15"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/voca15_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/part15_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/inter15_per"
+                android:text="0"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"/>
+
+        </TableRow>
+        </TableLayout>
+
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        app:menu="@menu/navigationreport" />
+
+</LinearLayout>
+

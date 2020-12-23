@@ -1,0 +1,273 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/lesson4part1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson4_a" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson4part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="number + ji = time" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part3"
+            android:layout_below="@+id/lesson4part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:00 --> ichi ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part4"
+            android:layout_below="@+id/lesson4part3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:00 --> ni ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part5"
+            android:layout_below="@+id/lesson4part4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:00 --> san ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:id="@+id/lesson4part6"
+            android:layout_below="@+id/lesson4part5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4:00 --> yo ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part7"
+            android:layout_below="@+id/lesson4part6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5:00 --> go ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part8"
+            android:layout_below="@+id/lesson4part7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6:00 --> roku ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:id="@+id/lesson4part9"
+            android:layout_below="@+id/lesson4part8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7:00 --> shichi ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part10"
+            android:layout_below="@+id/lesson4part9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00 --> hachi ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:id="@+id/lesson4part11"
+            android:layout_below="@+id/lesson4part10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:00 --> ku ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part12"
+            android:layout_below="@+id/lesson4part11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:00 --> juu ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part13"
+            android:layout_below="@+id/lesson4part12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:00 --> juu ichi ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part14"
+            android:layout_below="@+id/lesson4part13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00 --> juu ni ji" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson4part15"
+            android:layout_below="@+id/lesson4part14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="minutes" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/violet"
+            android:id="@+id/lesson4part16"
+            android:layout_below="@+id/lesson4part15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1--> ippun" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:id="@+id/lesson4part17"
+            android:layout_below="@+id/lesson4part16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 --> ni fun" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/lightblue"
+            android:id="@+id/lesson4part18"
+            android:layout_below="@+id/lesson4part17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 --> san pun" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/lightblue"
+            android:id="@+id/lesson4part19"
+            android:layout_below="@+id/lesson4part18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 --> yon pun" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:id="@+id/lesson4part20"
+            android:layout_below="@+id/lesson4part19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 --> go fun" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:id="@+id/lesson4part21"
+            android:layout_below="@+id/lesson4part20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 --> nana fun" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/violet"
+            android:id="@+id/lesson4part22"
+            android:layout_below="@+id/lesson4part21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 --> happun" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:id="@+id/lesson4part23"
+            android:layout_below="@+id/lesson4part22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9 --> kyuu fun" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:textColor="@color/violet"
+            android:id="@+id/lesson4part24"
+            android:layout_below="@+id/lesson4part23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 --> juppun" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part25"
+            android:layout_below="@+id/lesson4part24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 --> san juppun/han" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson4part26"
+            android:layout_below="@+id/lesson4part25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson4_b" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson4part27"
+            android:layout_below="@+id/lesson4part26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson4_c" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson4part28"
+            android:layout_below="@+id/lesson4part27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson4_d" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part29"
+            android:layout_below="@+id/lesson4part28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hatarakimasu -->present future tense" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part30"
+            android:layout_below="@+id/lesson4part29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hatarakimashita -->past tense" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part31"
+            android:layout_below="@+id/lesson4part30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hatarakimasen-->present future tense negative" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson4part32"
+            android:layout_below="@+id/lesson4part31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hatarakimasendeshita-->past tense negative" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson4part33"
+            android:layout_below="@+id/lesson4part32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson4_e" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson4part34"
+            android:layout_below="@+id/lesson4part33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson4_f" />
+
+
+    </RelativeLayout>
+</ScrollView>

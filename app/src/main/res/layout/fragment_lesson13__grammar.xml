@@ -1,0 +1,150 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/lesson13part1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson13_a" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson13part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson13_b" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part3"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/lesson13part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="わたしはあたらしいくつがほしいです。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part4"
+            android:layout_below="@+id/lesson13part3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I want a new shoes." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson13part5"
+            android:layout_below="@+id/lesson13part4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson13_c" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part6"
+            android:layout_below="@+id/lesson13part5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="おさけ を のみたい です。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part7"
+            android:layout_below="@+id/lesson13part6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I want to drink japanese rice wine." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part8"
+            android:layout_below="@+id/lesson13part7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="アメリカ へ いきたい です。" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part9"
+            android:layout_below="@+id/lesson13part8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I want to go to america." />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson13part10"
+            android:layout_below="@+id/lesson13part9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson13_d" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson13part11"
+            android:layout_below="@+id/lesson13part10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson13_e"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part12"
+            android:layout_below="@+id/lesson13part11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="アメリカ へ べんきょう に いきます。" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part13"
+            android:layout_below="@+id/lesson13part12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I will go to america to study" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lesson13part14"
+            android:layout_below="@+id/lesson13part13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson13_f"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part15"
+            android:layout_below="@+id/lesson13part14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="レストラン に 入ります"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part16"
+            android:layout_below="@+id/lesson13part15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I will enter the restaurant."/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part17"
+            android:layout_below="@+id/lesson13part16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="レストラン を でます。"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:textSize="20sp"
+            android:id="@+id/lesson13part18"
+            android:layout_below="@+id/lesson13part17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I will go out the restaurant."/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

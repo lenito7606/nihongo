@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:id="@+id/unaline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/a"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_one_kanji" />
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_two_kanji" />
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_three_kanji" />
+
+            <Button
+                android:id="@+id/d"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_four_kanji" />
+
+            <Button
+                android:id="@+id/e"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_five_kanji" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pangalawaline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/f"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_six_kanji" />
+
+            <Button
+                android:id="@+id/g"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_seven_kanji" />
+
+            <Button
+                android:id="@+id/h"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_eight_kanji" />
+
+            <Button
+                android:id="@+id/i"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_nine_kanji" />
+
+            <Button
+                android:id="@+id/j"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_ten_kanji" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pangatloline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/k"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hito_kanji" />
+
+            <Button
+                android:id="@+id/l"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_mei_kanji" />
+
+            <Button
+                android:id="@+id/m"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hou_kanji" />
+
+            <Button
+                android:id="@+id/n"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hon_kanji" />
+
+            <Button
+                android:id="@+id/o"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_nichi_kanji" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pangapatline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/p"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_nan_kanji" />
+
+            <Button
+                android:id="@+id/q"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_dai_kanji" />
+
+            <Button
+                android:id="@+id/r"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_gaku_kanji" />
+
+            <Button
+                android:id="@+id/s"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_kai_kanji" />
+
+            <Button
+                android:id="@+id/t"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_sei_kanji" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/panglimaline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/u"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_kou_kanji" />
+
+            <Button
+                android:id="@+id/v"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_rai_kanji" />
+
+            <Button
+                android:id="@+id/w"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_ji_kanji" />
+
+            <Button
+                android:id="@+id/x"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_kuruma_kanji" />
+
+            <Button
+                android:id="@+id/y"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hyaku_kanji" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/panganimline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_sen_kanji" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_man_kanji" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_en_kanji" />
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_toki_kanji" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_bun_kanji" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pangpitoline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_you_kanji" />
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_tsuki_kanji" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hi_kanji" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_mizu_kanji" />
+
+            <Button
+                android:id="@+id/ten"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_moku_kanji" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pangwaloline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/eleven"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_kin_kanji" />
+
+            <Button
+                android:id="@+id/twelve"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_tsuchi_kanji" />
+
+            <Button
+                android:id="@+id/thirteen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_tomo_kanji" />
+
+            <Button
+                android:id="@+id/fourteen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_nen_kanji" />
+
+            <Button
+                android:id="@+id/fifteen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_ima_kanji" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pangsiyamline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/sixteen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_gogo_kanji" />
+
+            <Button
+                android:id="@+id/seventeen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_ken_kanji" />
+
+            <Button
+                android:id="@+id/eighteen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_kuni_kanji" />
+
+            <Button
+                android:id="@+id/nineteen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_mae_kanji" />
+
+            <Button
+                android:id="@+id/twenty"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_shu_kanji" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/pangsampuline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/twentyone"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_naka_kanji" />
+
+            <Button
+                android:id="@+id/twentytwo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_ue_kanji" />
+
+            <Button
+                android:id="@+id/twentythree"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_shita_kanji" />
+
+            <Button
+                android:id="@+id/twentyfour"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_hidari_kanji" />
+
+            <Button
+                android:id="@+id/twentyfive"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_migi_kanji" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
